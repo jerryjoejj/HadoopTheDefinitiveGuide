@@ -16,7 +16,8 @@ public class FileSystemDoubleCat {
 		FileSystem fileSystem = FileSystem.get(URI.create(uri), configuration);
 		FSDataInputStream inputStream = fileSystem.open(new Path(uri));
 		IOUtils.copyBytes(inputStream, System.out, 4096, false);
-		inputStream.seek(0);
+		inputStream.seek(1);
+		System.out.println();
 		IOUtils.copyBytes(inputStream, System.out, 4096, false);
 		IOUtils.closeStream(inputStream);
  	}
