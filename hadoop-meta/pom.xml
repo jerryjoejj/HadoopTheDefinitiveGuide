@@ -34,6 +34,16 @@
                 <artifactId>hadoop-common</artifactId>
                 <version>${hadoop.verison}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-hdfs</artifactId>
+                <version>${hadoop.verison}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-minicluster</artifactId>
+                <version>${hadoop.verison}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>

@@ -10,6 +10,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URI;
 
+/**
+ * 显示本地文件复制到Hadoop
+ */
 public class FileCopyWithProgress {
 
 	public static void main(String[] args) throws Exception {
