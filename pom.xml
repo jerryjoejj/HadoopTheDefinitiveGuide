@@ -11,6 +11,7 @@
     <modules>
         <module>ch03-hdfs</module>
         <module>hadoop-meta</module>
+        <module>ch05-io</module>
     </modules>
 
 
