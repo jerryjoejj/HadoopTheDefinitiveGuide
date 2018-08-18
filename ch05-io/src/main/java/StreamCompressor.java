@@ -4,6 +4,9 @@ import org.apache.hadoop.io.compress.CompressionCodec;
 import org.apache.hadoop.io.compress.CompressionOutputStream;
 import org.apache.hadoop.util.ReflectionUtils;
 
+/**
+ * 从标准输入读取数据压缩，再写入标准输出
+ */
 public class StreamCompressor {
 
 	public static void main(String[] args) throws Exception {
