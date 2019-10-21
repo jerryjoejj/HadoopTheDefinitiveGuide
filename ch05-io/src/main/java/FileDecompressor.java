@@ -1,4 +1,3 @@
-import com.jcraft.jsch.IO;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
@@ -32,6 +31,7 @@ public class FileDecompressor {
             System.exit(1);
         }
 
+        //去除文件拓展名形成文件输出名
         String outputUri = CompressionCodecFactory.removeSuffix(uri, codec.getDefaultExtension());
 
         InputStream in = null;
