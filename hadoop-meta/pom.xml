@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <hadoop.verison>2.8.4</hadoop.verison>
+        <hadoop.verison>3.2.3</hadoop.verison>
         <junit.version>4.12</junit.version>
     </properties>
 
